@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(12, [col-start] 1fr);
-  grid-template-rows: 100px 200px 200px auto 400px 50px 150px 150px;
+  grid-template-rows: 100px 200px 200px auto 400px 80px;
   gap: 10px;
 }
 
@@ -111,14 +111,13 @@ nav ul a {
   width: 80%;
 }
 
-
 .featured-product-content {
   grid-column: 4 / 13;
   grid-row: 5 / span 1;
   background-color: white;
-  column-gap: 0px !important;
+  padding-left: 20px; 
   display: flex;
-  align-items: center;  
+  align-items:center;
 }
 
 .hero1 > img {
@@ -161,6 +160,33 @@ nav ul a {
   width: 50%;
 }
 
-.social-header {
+.social-media-header {
+  grid-column: 1 / 13;
+  grid-row: 6 / span 1;
+  display: flex;
+  justify-content: center;
+}
+.social-media-header h2 {
+  color: white;
+}
 
+.image-row {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.image-row img {
+    width: 100%;
+}
+
+footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color:white
 }

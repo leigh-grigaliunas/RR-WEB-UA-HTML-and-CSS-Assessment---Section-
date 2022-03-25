@@ -101,8 +101,10 @@ sub, sup {
 
 /* new rules */
 
-nav {
 
+nav {
+  grid-column: 1 / span 5;
+  display: grid;
 }
 
 .hero {

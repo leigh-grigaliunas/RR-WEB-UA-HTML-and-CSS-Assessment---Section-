@@ -134,9 +134,8 @@ nav ul a {
   grid-row: 5 / span 1;
   background-color: white;
   padding-left: 20px; 
-  display: flex;
-  align-items:center;
-}
+  padding-top: 70px;
+} 
 
 .hero1 img {
   object-fit: cover;
@@ -199,4 +198,12 @@ footer {
 
 footer p {
   color:white
+}
+
+.button1 {
+  text-decoration: none;
+  padding: 15px 15px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
 }
